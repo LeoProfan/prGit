@@ -10,6 +10,12 @@ namespace Привет_по_запросу
    {
       static void Main( string[ ] args )
       {
+         Console.Write( "Представьтесь - ....." );
+         string str = Console.ReadLine( );
+         Console.WriteLine($"Мой кумир, - {str}, ты меня покорил" );
+
+         Console.ReadKey( );
+
       }
    }
 }
